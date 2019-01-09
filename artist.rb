@@ -5,12 +5,6 @@ class CreateArtists < ActiveRecord::Migration
       t.string :genre
       t.integer :age
       t.string :hometown
-  end
-  end
-  
-   def up
-  end
- 
-  def down
+    end
   end
 end
